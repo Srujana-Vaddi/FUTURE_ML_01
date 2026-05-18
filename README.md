@@ -3,7 +3,10 @@ Sales Forecasting using Random Forest Algorithm
 ## Overview
 
 This project is a Machine Learning based Sales Forecasting system developed as part of the Future Interns ML Task 1.
-The project predicts sales values using historical sales data and the Random Forest Regression algorithm.
+
+This project predicts sales in future based on previous sale records, recognizing patterns in sales predicts future sales using
+
+Random Forest Regression.
 
 # Technologies Used
 
@@ -15,10 +18,10 @@ The project predicts sales values using historical sales data and the Random For
 
 # Machine Learning Concepts Used
 
-* Data Cleaning
+* Data Cleaning(Handle missing data)
 * Feature Engineering
-* Train-Test Split
-* Random Forest Regression
+* Train-Test Split(create data to test and determine patterns)
+* Random Forest Regression(predicts patterns)
 * Model Training
 * Prediction
 * Evaluation Metrics
@@ -41,9 +44,11 @@ The dataset was processed using the following steps:
 
 ## Random Forest Regressor
 
-Random Forest is a Machine Learning algorithm that uses multiple decision trees together to improve prediction accuracy.
+Random Forest is a machine learning algorithm that uses many decision trees to make better predictions. Each tree looks at different random 
 
-It learns patterns from historical sales data and predicts future sales values.
+parts of the data and their results are combined by voting for classification or averaging for regression which makes it as ensemble learning
+
+technique. This helps in improving accuracy and reducing errors.
 
 # Project Workflow
 
